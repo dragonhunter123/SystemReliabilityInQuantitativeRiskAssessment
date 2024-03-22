@@ -1,0 +1,40 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\setlength{\parindent}{0pt} % No indentation for paragraphs
+\setlength{\parskip}{\baselineskip} % Add space between paragraphs
+\usepackage{mdframed} % Add this line in the preamble
+\usepackage{xcolor} % This package is necessary for color definitions
+\usepackage{tabularx, booktabs}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+
+\begin{document}
+
+% Include the title page
+\input{titlepage}
+
+% Include lecture files as sections
+\section{Lecture - Stochastic Variables and Distribution Functions}
+\input{Content/Lecture01}
+\newpage
+\section{Lecture - Probability and Extreme Value Distributions}
+\input{Content/Lecture02}
+\newpage
+\section{Lecture - System Failure}
+\input{Content/Lecture03}
+\newpage
+\section{Lecture - System Safety}
+\input{Content/Lecture04}
+\newpage
+\section{Lecture - System Reliability Modeling}
+\input{Content/Lecture05}
+\newpage
+\section{Lecture - Quantitative Risk Assessment}
+\input{Content/Lecture06}
+
+
+\end{document}
